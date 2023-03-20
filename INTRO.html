@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_form</title>
+  
+    <link rel="stylesheet" href="forms.css">
+    
+</head>
+<body>
+    <div class="centre-box" id="login-div">
+        <h2>LOGIN</h2>
+        <input type="email" id="login-email" class="textfeild"  name="login-email" placeholder="email-id"/>
+        <br>
+         <input type="password" id="login-password" class="textfeild" name="login-password" placeholder="password"/>
+         <br>
+         <button id="login-button" class="btn-style">LOGIN</button><br>
+         <button id="reg-button" class="reg-btn-style">Don't have an account?REGISTER NOW</button>
+
+    </div>
+
+    <div class="centre-box" id="register-div">
+        <h2>REGISTER</h2>
+        <input type="email" id="register-email" class="textfeild"  name="login-email" placeholder="emai-id"/><br>
+        <input type="password" id="register-password" class="textfeild" name="login-password" placeholder="password"/><br>
+        <button id="register-button" class="btn-style">REGISTER</button><br>
+        <button id="log-button" class="reg-btn-style">Already have accont?LOGIN</button>
+    </div>
+
+<script>
+    document.getElementById("reg-button").addEventListener("click",function(){
+    document.getElementById("register-div").style.display="inline";
+    document.getElementById("login-div").style.display="none";
+    alert("YOU ARE GOING TO REGISTER PAGE");
+});
+document.getElementById("log-button").addEventListener("click",function(){
+    document.getElementById("login-div").style.display="inline";
+    document.getElementById("register-div").style.display="none";
+    alert("YOU ARE GOING TO LOGIN PAGE");});
+
+</script>
+
+  
+
+
+
+</body>
+</html>

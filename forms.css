@@ -1,0 +1,54 @@
+BODY{
+    background-color:yellowgreen;
+}
+.centre-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: greenyellow;
+}
+.textfeild{
+    padding: 10px 30px;
+    margin: 20px;
+    border: 2px solid green;
+    border-radius: 10px ;
+    color: none;
+}
+.btn-style{
+    
+    padding: 8px;
+    border: 3px soid green;
+    background-color:greenyellow;
+    border-radius: 8px;
+    color: blue;
+}
+#register-div{
+    display: none;
+}
+.reg-btn-style{
+    border: solid greenyellow;
+    background-color: greenyellow;
+    color:black
+}
+#register-button{
+    padding: 8px;
+    border: 3px soid green;
+    background-color:greenyellow;
+    border-radius: 8px;
+    color: blue;
+}
+
+.reg-btn-style:hover{
+   
+    cursor: pointer;
+font-size: 15px;
+}
+.btn-style:hover{
+    cursor: pointer;
+}
