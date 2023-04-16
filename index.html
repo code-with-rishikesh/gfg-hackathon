@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo selectors & more designing</title>
+    <style>
+      #RKS{
+        BORDER:2PX;
+        BORDER-RADIUS:0PX;
+        BACKGROUND:rgb(136, 204, 26);
+HEIGHT:50PX;
+PADDING-LEFT:500PX;
+PADDING-TOP:15PX;
+PADDING-BOTTOM:10PX;
+margin-top: 5PX;
+MARGIN-BOTTOM:0PX;
+
+COLOR:rgb(235, 17, 17);
+border-radius: 60px;
+transition:all 0.5s;
+
+      }
+      #RKS:HOVER{
+        background: blueviolet;
+        BORDER-RADIUS:50PX;
+      COLOR:BLUE;
+      height:100PX;
+      
+      }
+      .BTNA{
+        MARGIN-TOP:10PX;
+             BACKGROUND:rgb(243, 245, 236);
+             MARGIN-LEFT:580PX;
+             margin-top:10px;
+             PADDING:5PX;
+             BORDER-RADIUS:10PX;
+             transition:all 0.5s;
+             
+         
+      }
+      @keyframes hello{
+        0%{
+          left: 100px;
+          top:100px;
+        }
+    
+        50%{
+          top:100px;
+          left:00px;
+          
+        }
+
+      }
+      .BTNA:HOVER{
+        BACKGROUND:BLUE;
+        CURSOR:POINTER;
+      }
+      .BTNA:VISITED{
+        BACKGROUND:RED;
+      }
+      .BTNB{
+        PADDING:5PX;
+        MARGIN-TOP:10PX;
+        BORDER-RADIUS:10PX;
+        MARGIN-LEFT:20PX;
+        
+      }
+      .BTNB:HOVER{
+        BACKGROUND:BLUE;
+        CURSOR:POINTER;
+
+      }
+      .NAVIGATION{
+        OVERFLOW:AUTO;
+        BACKGROUND:rgb(239, 250, 89);
+        COLOR:WHITE;
+       
+BORDER-RADIUS:30PX;
+      }
+      .NAVIGATION LI{
+        FLOAT:LEFT;
+        LIST-STYLE:NONE;
+        PADDING:10PX;
+    color:white;
+    size: 40px;
+      }
+      .NAVIGATION li a:hover{
+       background-COLOR:rgb(243, 243, 237);
+       color: rgb(12, 12, 11);
+      }
+      #search{
+        BORDER:2PX SOLID BLACK;
+        margin-left:700px;
+        margin-top:5px;
+        padding: 5PX;
+        
+      }
+      .snake{
+        
+        position:relative;
+             animation-name:hello;
+             animation-duration: 8S;
+             animation-iteration-count: infinite;
+
+      }
+      @media (MAX-WIDTH:200PX){
+        .NAVIGATION{
+          DISPLAY:BLOCK;
+        }
+      }
+      @media (MIN-WIDTH:200px)and (MAX-WIDTH:300px){
+        #RKS{
+         display: BLOCK;
+        }
+      }
+      @media (min-width:300px)and(max-width:500px){
+        #BTNA{
+          DISPLAY:BLOCK;
+        }
+      }
+    </style>
+</head>
+<body BACKGROUND=ABC.jpg>
+    <!--<h1 ID="RKS">CAR-SOP</h1>-->
+    <HEADER>
+        <NAV CLASS="NAVIGATION">
+            <UL>
+                <LI><A HREF="home.js">HOME</A></LI>
+                <LI><A href="services.html">SERVICES</A></LI>
+                <LI><A href="explore.js">EXPLORE</A></LI>
+                <LI><A href="contact_us.js">CONTACT US</A></LI>
+                <div class="searchbar">
+                    <input type="text" id="search" name="search" placeholder="search here">
+                </div>
+            </UL>
+        </NAV>
+    </HEADER>
+  
+    <h1 ID="RKS">THE AGRO E-COMMERCE </h1>
+   <BUTTON CLASS="BTNA"><A HREF="WWW.GOOGLE.COM"></A>DISTRIBUTOR LOGIN</BUTTON>
+   <BUTTON CLASS="BTNB">BUYER LOGIN</BUTTON>
+   <div class="snake">
+<img src="Capture2.PNG" alt="error loading image">
+   </div>
+</body>
+</html>
